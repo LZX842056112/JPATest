@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JPA-2" />
         <module name="JPA-1" />
+        <module name="JPA-3-spec" />
       </profile>
     </annotationProcessing>
   </component>
