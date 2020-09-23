@@ -34,7 +34,7 @@ public class LinkMan {
      *      2.配置外键（中间表）
      * 配置外键的过程，配置到了多的一方，就会在多的一方维护外键
      */
-    @ManyToOne(targetEntity = Customer.class)
+    @ManyToOne(targetEntity = Customer.class,fetch = FetchType.LAZY)
     @JoinColumn(name = "lkm_cust_id",referencedColumnName = "cust_id")
     private Customer customer;
 

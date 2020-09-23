@@ -13,6 +13,7 @@
         <module>JPA-2</module>
         <module>JPA-3-spec</module>
         <module>JPA-3-onetomany</module>
+        <module>JPA-3-manytomany</module>
     </modules>
 
 

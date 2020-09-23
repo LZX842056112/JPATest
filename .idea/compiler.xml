@@ -10,6 +10,7 @@
         <module name="JPA-1" />
         <module name="JPA-3-onetomany" />
         <module name="JPA-3-spec" />
+        <module name="JPA-3-manytomany" />
       </profile>
     </annotationProcessing>
   </component>
