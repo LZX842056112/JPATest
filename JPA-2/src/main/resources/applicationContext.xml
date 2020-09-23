@@ -43,8 +43,8 @@
     </bean>
     <!--2.创建数据库连接池-->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-        <property name="user" value="root"></property>
-        <property name="password" value="960914"></property>
+        <property name="user" value=""></property>
+        <property name="password" value=""></property>
         <property name="jdbcUrl" value="jdbc:mysql:///g_07?characterEncoding=utf-8"></property>
         <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
     </bean>
